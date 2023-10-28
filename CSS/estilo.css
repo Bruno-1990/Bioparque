@@ -40,19 +40,20 @@ p{
 .fotos{
     display: flex;
     overflow-x: auto;
-    padding-top: 20px;
+    padding: 10 0;
    
 }
 
 .galeria{
     width: calc(100%-70px);
-    padding-top: 20px;
+    padding: 20px 0;
 
 }
 
 .galeria img {
     width: calc((100% / 3) - 3px);
     margin: 0 1.5px;
+    padding: 10px 0;
 }
 
 img:hover{
