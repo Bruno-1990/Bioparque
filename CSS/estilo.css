@@ -7,6 +7,7 @@ body{
     font-family: sans-serif;
 }
 .cabecalho, .rodape{
+ width: 100%;
  padding: 16px;
  color:#fff;
  background-color: #FF8014;
@@ -16,6 +17,7 @@ body{
 }
 .limite{    
     width: 100%;
+    height: 100%;
     max-width: 1024px;
     min-width: 320px;
     margin: 0 auto;    
@@ -26,7 +28,7 @@ body{
 .conteudo{    
     /* width: calc(100%-70px); desnecessário */
     overflow-y: auto ;
-    height: 350px;
+    height: 450px;
 }
 p{
     line-height: 1.5rem;
@@ -38,11 +40,14 @@ p{
 .fotos{
     display: flex;
     overflow-x: auto;
+    padding-top: 20px;
    
 }
 
 .galeria{
     width: calc(100%-70px);
+    padding-top: 20px;
+
 }
 
 .galeria img {
@@ -52,6 +57,5 @@ p{
 
 img:hover{
     border: solid .2rem #FFF;
-    box-shadow: 2px -5px 2px #cecece;
-   
+    box-shadow: 2px -5px 2px #cecece;   
 }
